@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    justify-content: center;
+    display: flex;
+    font-family: Roboto;
+    font-size: 10px;
+    line-height: 14px;
+
+}
+
+
+/* header */
+
+header {
+    width: 224px;        
+    background-color: #323B4C;
+    color: white;
+    padding-left: 35px;
+}
+
+#photo {
+    width: 60%;
+    margin: 25px;    
+}
+img {    
+    height: auto;
+    width: 100%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    padding-bottom: 15px;
+}
+
+header section {
+    padding-bottom: 20px;
+}
+
+header section .section-title {
+    font-size: 2em;
+}
+
+hr {
+    color: gray;
+}
+
+header section div {
+    padding-top: 10px;
+}
+
+
+header a {
+    color: white;
+}
+
+header ul {
+    padding: 15px;
+}
+
+/* main */
+
+main {
+    width: 421px;    
+    padding-left: 20px;
+}
+
+h1 {
+    color: #323b4c;
+    font-size: 3em;
+    font-weight: 300;
+    margin-top: 40px;
+    margin-bottom: 15px;
+
+}
+
+main p {
+    color: gray;
+
+}
+
+#about span {
+    font-size: 2em;
+    letter-spacing: 3px;
+    font-weight: 300;
+}
+
+main h2 {
+    letter-spacing: 0.5px;
+    margin-bottom: 0px;
+}
+
+main hr {
+    margin-bottom: 15px;
+}
+
+/* timeline */
+/* Timeline Container */
+.timeline {
+    background: var(--primary-color);
+    margin: 0px auto;
+    padding: 0px 15px 0px 15px;
+    border-left: 1px solid grey;
+    margin-left: 3px;
+}
+
+/* Title of the card */
+.years {
+    color: black;
+    position: relative;
+  }
+  
+    /* Timeline dot  */
+    .years::before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background: white;
+    border-radius: 999px;
+    left: -20px;
+    border: 1px solid ;
+    }
+
+
+article {
+    color: gray;    
+}
+
+article div {
+    margin: 3px 0;
+}
+
+.years {
+    font-weight: 600;
+    margin-bottom: 1px;    
+}
+.companyname {
+    margin-top: 0px;
+}
+.jobposition{
+    font-weight: bold;
+    font-size: 1.2em;
+}
+.jobexperience{
+    margin-top: 5px;
+    margin-bottom: 15px;
+}
+

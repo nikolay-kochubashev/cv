@@ -1,0 +1,10 @@
+ul li + li + li {
+    color:red    
+}
+
+li:nth-child(3n+1){
+    color: green;
+}
+div {
+    display: inline;
+}
