@@ -21,6 +21,7 @@ header {
 #photo {
     width: 60%;
     margin: 25px;    
+    padding-top: 10px;
 }
 img {    
     height: auto;
@@ -29,8 +30,7 @@ img {
     -moz-border-radius: 50%;
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
-    border-radius: 50%;
-    padding-bottom: 15px;
+    border-radius: 50%;    
 }
 
 header section {
